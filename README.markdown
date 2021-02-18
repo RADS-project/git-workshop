@@ -1,18 +1,35 @@
-What is Git ?
+This repos is a clone from: [kuahyeow](https://github.com/kuahyeow/git-workshop)'s workshop.
+
+Qu'est-ce que Git ?
 =============
 
-Git is a *distributed* **version control** system [1]
+Git est un **gestionnaire de version** *decentralisé* [1]
+
+![Branches](images/branches.png)
 
 [1] <a href="http://git-scm.com/about">http://git-scm.com/about</a>
 
-Getting Git
------------
+Installation de Git
+-------------------
 
-Some house-cleaning here. We assume of course you have Git installed,
-(hopefully \>= 1.7.0).
+Vous pouvez installer Git via le guide de [Github](https://help.github.com/articles/set-up-git/).
 
-If you don't you can install it from downloads on the git homepage or you can
-install [Github's git GUI](https://help.github.com/articles/set-up-git/).
+[Téléchargement](https://git-scm.com/downloads).
+
+Utilisation de Github Desktop
+-----------------------------
+
+[Téléchargement de Github Desktop](https://desktop.github.com/)
+
+Vidéos:
+* [Utilisation de Github Desktop #1](https://www.youtube.com/watch?v=7-yCVr6RMdQ)
+* [Utilisation de Github Desktop #2](https://www.youtube.com/watch?v=U1W1MgI_7Vg)
+
+Utilisation de Git Kraken
+-------------------------
+
+[Téléchargement de Git Kraken](https://www.gitkraken.com/)
+![Git Kraken](images/git-kraken.png)
 
 Setup
 -----
@@ -23,6 +40,7 @@ other people who download the project.
     $ git config --global user.name "Your Name"
     $ git config --global user.email your.email@example.com
 
+Put the same email as your Github account
 As a helpful step, you may want to set Git to use your favourite editor
 
     $ git config --global core.editor emacs
@@ -32,7 +50,7 @@ Starting your journey
 
 First, clone this repository:
 
-    $ git clone https://github.com/kuahyeow/git-workshop.git
+    $ git clone https://github.com/RADS-project/git-workshop.git
 
 You may want to fork (create your own copy of) the project on github and
 clone from your own repo. You can find the fork button at the top right of
